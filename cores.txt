@@ -1,0 +1,8 @@
+fundo #0A0A1C; slate-950
+cian #61E8DA; teal-300
+branco #FFFFFF; white
+azul  #4D51D6; indigo-600
+
+
+
+roxo: #C6B5F8; violet-300
