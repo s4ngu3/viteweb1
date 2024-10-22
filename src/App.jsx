@@ -10,7 +10,7 @@ function App() {
 
   return (
 
-    <div className="">
+    <div className="font-body">
       <Header></Header>
       <Slider></Slider>
       <CategoriaLista></CategoriaLista>

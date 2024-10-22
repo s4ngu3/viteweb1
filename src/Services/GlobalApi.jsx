@@ -1,9 +1,9 @@
 import axios from 'axios';
 
 const token = ""
-const urltrailer = "https://api.judah.tv/api/listtrailer"
+const urltrailer = "https://api.judah.tv/api/listtrailerx"
 
-const urlcanais = "https://api.judah.tv/api/listtv/"
+const urlcanais = "https://api.judah.tv/api/listtvx/"
 
 
 

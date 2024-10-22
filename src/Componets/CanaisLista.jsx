@@ -36,8 +36,8 @@ function CanaisLista({ lista }) {
 
     return (
         <div>
-        <MdChevronLeft className='hidden md:block  text-black text-[32px] absolute mx-1 mt-[100px] cursor-pointer' onClick={() => { btesquerda(barref.current) }} />
-        <MdChevronRight className='hidden md:block text-black text-[32px] absolute mx-4 mt-[100px] cursor-pointer right-0' onClick={() => { btdireita(barref.current) }} />
+        <MdChevronLeft className='hidden md:block  text-white text-[32px] absolute mx-1 mt-[100px] cursor-pointer' onClick={() => { btesquerda(barref.current) }} />
+        <MdChevronRight className='hidden md:block text-white text-[32px] absolute mx-4 mt-[100px] cursor-pointer right-0' onClick={() => { btdireita(barref.current) }} />
 
         <div className='flex gap-8 overflow-x-auto scrollbar-hide scroll-smooth p-10' ref={barref}>
 

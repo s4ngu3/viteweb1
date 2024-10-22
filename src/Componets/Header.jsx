@@ -7,7 +7,9 @@ import { MdTv, MdChurch, MdPerson, MdMusicNote, MdOutlineSearch  } from "react-i
 import HeaderItem from './HeaderItem';
 import { TbDotsVertical, TbUserEdit } from "react-icons/tb";
 import { BsCalendarDay } from "react-icons/bs";
-
+import { FaTheaterMasks } from "react-icons/fa";
+import { FaMusic } from "react-icons/fa6";
+import { MdFestival } from "react-icons/md";
 function Header() {
   const [toggle, settoggle] = useState(false)
 
@@ -19,11 +21,11 @@ function Header() {
 
     { name: 'Agenda', icon: BsCalendarDay },
 
-    { name: 'Igrejas', icon: MdChurch },
+    { name: 'Teatro', icon: FaTheaterMasks },
 
-    { name: 'Pastores', icon: BiSolidBible },
+    { name: 'Música', icon: FaMusic },
 
-    { name: 'Músicos', icon: MdMusicNote },
+    { name: 'Shows', icon: MdFestival },
 
   ]
 
@@ -32,7 +34,7 @@ function Header() {
     <div className='flex items-center justify-between p-4'>
       <div className='flex gap-8 items-center'>
 
-        <img src={logo} className='w-[200px] md:w-[400px] object-cover' />
+        <img src={logo} className='w-[100px] md:w-[200px] object-cover m-2' />
         <div className='hidden md:flex gap-8 '>
           {menu.map((item,index) => (
             <HeaderItem key = {index} name={item.name} Icon={item.icon} />
